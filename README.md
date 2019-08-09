@@ -27,7 +27,7 @@ Everytime you stop and start the ec2, you need to change IP address in previous 
 
 At first you need to launch the playbook to install prerequisite and copy_directories roles. It allows to set the work environment to perform well the loading tests.
 
-`ansible-playbook -i inventories/dev.yml install.yml`
+`ansible-playbook -i inventories/dev.yml --key-file "/PATH/TO/YOUR/KEY/FILE" install.yml`
                    
 ## Directories details
 
