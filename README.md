@@ -12,8 +12,7 @@ At first, you need to install Aura Infrastructure (https://github.com/RGirard94/
 This Ansible playbook consists of two roles:
   - prerequisite : installs tools used to perform well the different python scripts.
   - copy_directories : copies a directory containing the python scripts to randomly generate data and an other directory
-                       containing the python scripts to inject the generated data in influxdb database. These directories are
-                       copied from your local machin to the virtual machin containing the Aura Infrastructure.
+                       containing the python scripts to inject the generated data in TimescaleDB database. These directories are copied from your local machin to the virtual machin containing the Aura Infrastructure.
                     
 ## Usage
 
